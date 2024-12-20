@@ -3,8 +3,6 @@ import { createRoot } from 'react-dom/client';
 import { createBrowserRouter, RouterProvider, Navigate } from 'react-router-dom';
 import AppLayout from './layout'; 
 import './index.css';
-import OUsecallBack from "./pages/Saurabh/Optimized/UseCallBack"
-import UsecallBack from "./pages/Saurabh/UnOptimized/UseCallBack"
 
 import Home from "./Home"
 import ListKeys from './pages/Hardik/ListKeys';
@@ -24,14 +22,7 @@ const appRouter = createBrowserRouter([
         path:'listKeys',
         element:<ListKeys />
       },
-      {
-        path: 'callbacks/optimized',
-        element: <OUsecallBack />,
-      },
-      {
-        path: 'callbacks/unoptimized',
-        element: <UsecallBack />,
-      },
+
     ],
   },
 ]);
