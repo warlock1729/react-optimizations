@@ -1,0 +1,11 @@
+{
+  "posts": [
+    { "id": 1, "title": "Hello World", "author": "John" },
+    { "id": 2, "title": "JSON Server", "author": "Jane" }
+  ],
+  "comments": [
+    { "id": 1, "postId": 1, "body": "Nice post!" },
+    { "id": 2, "postId": 1, "body": "Thanks for sharing." }
+  ],
+  "profile": { "name": "Admin" }
+}
